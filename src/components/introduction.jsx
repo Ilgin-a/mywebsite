@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ilgin2 from './B8399098-6C06-4583-ABE4-D7E2DEB4329E_1_105_c.jpeg'
+import ilgin3 from './CC616138-3D85-41EE-A6E2-D14C28646F98_1_105_c.jpeg'
 
 export default class Introduction extends Component {
   render() {
@@ -33,12 +34,16 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/img_bg.jpg)'}}>
+              <li >
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
+                      <img 
+          src={ilgin3} style={{width: '120%',height:'700px' }}
+          alt="logo" 
+        />
                         <div className="desc">
                           <h1>I love building<br /> THINGS !!</h1>
                           <p><a className="btn btn-primary btn-learn" href="https://github.com/Ilgin-a" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
