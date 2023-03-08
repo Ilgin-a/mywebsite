@@ -22,7 +22,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
 
                       <img 
-          src={ilgin2} style={{width: '120%',height:'700px' }}
+          src={ilgin2} style={{width: '100%',height:'auto' }}
           alt="logo" 
         />
                         <div className="desc">
@@ -41,7 +41,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                       <img 
-          src={ilgin3} style={{width: '120%',height:'700px' }}
+          src={ilgin3} style={{width: '100%',height:'auto' }}
           alt="logo" 
         />
                         <div className="desc">
