@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img"  />
               <img 
-          src={ilgin} style={{width: '100%',height:'500px' }}
+          src={ilgin} style={{width: '100%',height:'auto' }}
           alt="logo" 
         />
         
